@@ -6,7 +6,7 @@ Command line tool to view csv file.
 
 == INSTALL:
 
-　gem install csvr
+ gem install jugyo-csvr --source http://gems.github.com
 
 == SYNOPSIS:
 
