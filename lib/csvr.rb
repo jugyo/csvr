@@ -2,7 +2,7 @@ require 'hirb'
 require 'csv'
 
 module Csvr
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 
   def view(path)
     puts render(normalize(CSV.read(path)))

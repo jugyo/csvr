@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{csvr}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["jugyo"]
   s.date = %q{2009-09-29}
   s.default_executable = %q{csvr}
-  s.description = %q{Command line tool to view csv file}
+  s.description = %q{Command line tool to view csv file.}
   s.email = %q{jugyo.org@gmail.com}
   s.executables = ["csvr"]
   s.files = ["Rakefile", "README.rdoc", "bin/csvr", "lib/csvr.rb", "spec/csvr_spec.rb", "spec/test.csv"]
